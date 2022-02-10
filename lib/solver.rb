@@ -12,4 +12,8 @@ class Solver
   def reverse(word)
     word.to_s.reverse
   end
+
+  def fizzbuzz(integer)
+    'fizzbuzz' << integer
+  end
 end
