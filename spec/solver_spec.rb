@@ -17,6 +17,6 @@ describe Solver do
   end
 
   it 'raises an exception when a negative integer is given' do
-    expect(@solver.factorial(-1)).to raise_exception
+    expect { @solver.factorial(-1) }.to raise_error("Input can't be a negative number")
   end
 end
