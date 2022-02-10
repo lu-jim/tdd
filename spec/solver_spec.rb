@@ -15,4 +15,8 @@ describe Solver do
     expect(@solver.factorial(5)).to eq(120)
     expect(@solver.factorial(7)).to eq(5040)
   end
+
+  it 'raises an exception when a negative integer is given' do
+    expect(@solver.factorial(-1)).to raise_exception
+  end
 end
