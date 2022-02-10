@@ -14,6 +14,8 @@ class Solver
   end
 
   def fizzbuzz(integer)
-    'fizzbuzz' << integer
+    raise 'Input is not an integer' if Integer(integer).zero?
+
+    'fizzbuzz'
   end
 end

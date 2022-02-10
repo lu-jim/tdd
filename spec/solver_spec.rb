@@ -27,4 +27,8 @@ describe Solver do
   it 'takes an integer and returns a string with the fizzbuzz method' do
     expect(@solver.fizzbuzz(5)).to be_a(String)
   end
+
+  it 'if the integer is divisible by 3 and 5, return fizzbuzz' do
+    expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
+  end
 end
