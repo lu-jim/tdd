@@ -7,7 +7,7 @@ describe Solver do
 
   context 'Given a single parameter' do
     it 'is an instance of Solver' do
-      @solver.should be_an_instance_of Solver
+      expect(@solver).to be_an_instance_of Solver
     end
   end
 
