@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple steps.
 - Twitter: [@Bunbee02](https://twitter.com/Bunbee02)
 - LinkedIn: [@Bunbee](https://linkedin.com/in/linkedinhandle)
 
-👤 **Anibal Amoroso**
+👤 **Anibal Daniel Amoroso**
 
 - GitHub: [sj1978](https://github.com/sj1978)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/anibalamoroso/)
