@@ -13,13 +13,16 @@ class Solver
     word.to_s.reverse
   end
 
-  def fizzbuzz(number)
-    raise 'Input is not an integer' if Integer(number).zero?
-
+  def fizzbuzz(input)
+    number = input.to_i
     if (number % 3).zero? && !(number % 5).zero?
       'fizz'
-    else
+    elsif !(number % 3).zero? && (number % 5).zero?
+      'buzz'
+    elsif (number % 3).zero? && (number % 5).zero?
       'fizzbuzz'
+    else
+      input
     end
   end
 end

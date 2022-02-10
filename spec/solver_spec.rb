@@ -35,4 +35,16 @@ describe Solver do
   it 'returns fizz if the integer is divisible by 3' do
     expect(@solver.fizzbuzz(6)).to eq('fizz')
   end
+
+  it 'returns buzz if the integer is divisible by 5' do
+    expect(@solver.fizzbuzz(10)).to eq('buzz')
+  end
+
+  it 'returns fizzbuzz if the integer is divisible by both 3 and 5' do
+    expect(@solver.fizzbuzz(30)).to eq('fizzbuzz')
+  end
+
+  it "returns the same input if it doesn't fulfill any condition stated above" do
+    expect(@solver.fizzbuzz(7)).to eq(7)
+  end
 end
