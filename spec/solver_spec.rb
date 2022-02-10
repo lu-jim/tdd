@@ -23,4 +23,8 @@ describe Solver do
   it 'reverses a provided string with the reverse method' do
     expect(@solver.reverse('Hello')).to eq('olleH')
   end
+
+  it 'takes an integer and returns a string with the fizzbuzz method' do
+    expect(@solver.fizzbuzz(5)).to be_a(String)
+  end
 end
