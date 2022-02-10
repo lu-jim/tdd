@@ -28,7 +28,11 @@ describe Solver do
     expect(@solver.fizzbuzz(5)).to be_a(String)
   end
 
-  it 'if the integer is divisible by 3 and 5, return fizzbuzz' do
+  it 'returns fizzbuzz if the integer is divisible by 3 and 5' do
     expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
+  end
+
+  it 'returns fizz if the integer is divisible by 3' do
+    expect(@solver.fizzbuzz(6)).to eq('fizz')
   end
 end
