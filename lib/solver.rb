@@ -1,5 +1,9 @@
 class Solver
   def factorial(number)
-    120
+    if number == 0
+       1
+    else
+      number * factorial(number - 1 )
+    end
   end
 end

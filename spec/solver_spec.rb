@@ -13,5 +13,6 @@ describe Solver do
 
   it 'can calculate the factorial of an integer using the factorial method' do
     expect(@solver.factorial(5)).to eq(120)
+    expect(@solver.factorial(7)).to eq(5040)
   end
 end
