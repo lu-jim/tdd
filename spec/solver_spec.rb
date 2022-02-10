@@ -17,6 +17,10 @@ describe Solver do
   end
 
   it 'raises an exception when a negative integer is given to factorial' do
-    expect { @solver.factorial(-1) }.to raise_error("Input is not a positive integer")
+    expect { @solver.factorial(-1) }.to raise_error('Input is not a positive integer')
+  end
+
+  it 'reverses a provided string with the reverse method' do
+    expect(@solver.reverse('Hello')).to eq('olleH')
   end
 end
